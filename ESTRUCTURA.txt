@@ -1,0 +1,24 @@
+.
+├── ESTRUCTURA.txt
+├── main.tf
+├── modules
+│   └── mi-recurso
+│       ├── main.tf
+│       ├── outputs.tf
+│       └── variables.tf
+├── .terraform
+│   ├── modules
+│   │   └── modules.json
+│   └── providers
+│       └── registry.terraform.io
+│           └── hashicorp
+│               └── aws
+│                   └── 5.100.0
+│                       └── linux_amd64
+│                           ├── LICENSE.txt
+│                           └── terraform-provider-aws_v5.100.0_x5
+├── .terraform.lock.hcl
+├── terraform.tfstate
+└── terraform.tfstate.backup
+
+11 directories, 11 files
